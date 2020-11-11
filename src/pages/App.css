@@ -2,6 +2,19 @@
 @import url(../vendor/font/font.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/footer/footer.css);
+
+.lobster {
+  font-family: "Lobster", "Inter", "Arial Narrow Bold", sans-serif;
+}
+
+.footer__color {
+  background-color: #00b3b3;
+  padding: 20px 20px 0px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+
 .page {
   background-color: #101010;
   color: #fff;
@@ -10,8 +23,11 @@
   position: relative;
 }
 
-.overlay {
+.hidden {
   visibility: hidden;
+}
+
+.overlay {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -19,7 +35,7 @@
   left: 0;
   z-index: 1;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.9);
 }
 
 .construction {
@@ -56,11 +72,13 @@
 }
 .projects__text {
   font-size: 40px;
+  text-align: center;
 }
 .projects__box {
   list-style: none;
   padding: 0;
-  margin: 0;
+
+  margin-top: 30px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;

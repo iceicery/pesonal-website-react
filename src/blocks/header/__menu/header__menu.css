@@ -1,5 +1,10 @@
-.header__menu{
-    margin-top:40px;
-    display: flex;
-    justify-content: start;
+.header__menu {
+  margin-top: 40px;
+  display: flex;
+  justify-content: start;
+  align-content: center;
+}
+
+.header__menu-adjust {
+  margin-top: 0;
 }
