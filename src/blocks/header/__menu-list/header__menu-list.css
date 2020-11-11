@@ -1,0 +1,7 @@
+.header__menu-list{
+    padding:10px;
+    margin-right: 20px;
+    border-radius: 10px;
+    border:solid #fff;
+    list-style: none;
+}

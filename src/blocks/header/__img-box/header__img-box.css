@@ -1,0 +1,13 @@
+.header__img-box {
+    width: 50%;
+    height: 100%;
+    
+}
+
+@media screen and (max-width:500px) {
+    .header__img-box {
+        height: 100%;
+        width: 100%;
+    }
+}
+
