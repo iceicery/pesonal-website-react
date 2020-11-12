@@ -5,3 +5,9 @@
   height: 25px;
   background-repeat: no-repeat;
 }
+
+.footer__icon-github:hover {
+  opacity: 80%;
+  cursor: pointer;
+  border: solid 0.1px lightblue;
+}

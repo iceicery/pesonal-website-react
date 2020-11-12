@@ -43,7 +43,7 @@ export default function WebProjects() {
                             <li className="projects__tech-item">CSS</li>
                             <li className="projects__tech-item">JavaScript</li>
                             <a
-                                href="http s://github.com/iceicery/web_project_1"
+                                href="https://github.com/iceicery/web_project_3"
                                 target="_blank"
                                 rel="noreferrer"
                             >
@@ -53,7 +53,7 @@ export default function WebProjects() {
                     </li>
                     <li className="projects__item">
                         <a
-                            href="https://iceicery.github.io/web_project_1/"
+                            href="https://iceicery.github.io/web_project_4/dist/index.html"
                             target="_blank"
                             rel="noreferrer"
                         ><img src={project3} className="projects__img"
@@ -64,7 +64,7 @@ export default function WebProjects() {
                             <li className="projects__tech-item">CSS</li>
                             <li className="projects__tech-item">JavaScript</li>
                             <a
-                                href="https://github.com/iceicery/web_project_1"
+                                href="https://github.com/iceicery/web_project_4"
                                 target="_blank"
                                 rel="noreferrer"
                             >
@@ -74,7 +74,7 @@ export default function WebProjects() {
                     </li>
                     <li className="projects__item">
                         <a
-                            href="https://iceicery.github.io/web_project_1/"
+                            href="https://iceicery.github.io/BaseCaculator/"
                             target="_blank"
                             rel="noreferrer"
                         ><img src={project4} className="projects__img"
@@ -85,7 +85,7 @@ export default function WebProjects() {
                             <li className="projects__tech-item">CSS</li>
                             <li className="projects__tech-item">JavaScript</li>
                             <a
-                                href="https://github.com/iceicery/web_project_1"
+                                href="https://github.com/iceicery/BaseCaculator"
                                 target="_blank"
                                 rel="noreferrer"
                             >

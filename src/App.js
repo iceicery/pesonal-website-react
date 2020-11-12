@@ -14,7 +14,7 @@ function App() {
         <Menu />
         <Header />
         <WebProjects />
-        < Footer />
+        <Footer />
       </div>
     </body>
   );
