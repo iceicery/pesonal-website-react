@@ -1,8 +1,9 @@
 import React from 'react';
+import { Link, withRouter } from 'react-router-dom';
 import developer from '../images/developer.jpg';
 import avatar from '../images/head.jpg';
 import emoji from '../images/emoji-2.jpg'
-export default function Menu() {
+function Menu() {
     return (
         <header className="header">
             <div className="header__img-box">
@@ -27,13 +28,17 @@ export default function Menu() {
                 </div>
 
                 <menu className="header__menu">
-                    <li className="header__menu-list">Web Projects</li>
+                    <Link to="/projects" className="header__menu-list">Web Projects</Link>
                     <li className="header__menu-list">Learning Track</li>
                     <li className="header__menu-list">Before Coding</li>
                     <li className="header__menu-list">Interests</li>
-                    <li className="header__menu-list">One Page Summary</li>
+                    <a href="https://iceicery.github.io/pinwei/"
+                        target="_blank"
+                        rel="noreferrer"><li className="header__menu-list">One Page Summary</li></a>
                 </menu>
             </div>
         </header>
     )
 }
+
+export default withRouter(Menu);

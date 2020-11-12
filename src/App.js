@@ -1,4 +1,5 @@
 import React from 'react';
+import { BrowserRouter, Route, withRouter, Switch } from "react-router-dom";
 import './pages/App.css';
 import Menu from './components/Menu';
 import Construction from './components/Construction';
@@ -11,13 +12,21 @@ function App() {
     <body>
       <div className="page">
         <Construction isConstructed={false} />
-        <Menu />
-        <Header />
-        <WebProjects />
+        <BrowserRouter>
+          <Switch>
+            <Route exact path="/">
+              <Menu />
+            </Route>
+            <Route exact path="/projects">
+              <Header />
+              <WebProjects />
+            </Route>
+          </Switch>
+        </BrowserRouter>
         <Footer />
       </div>
     </body>
   );
 }
 
-export default App;
+export default withRouter(App);

@@ -1,9 +1,10 @@
 import React from 'react';
+import { Link, withRouter } from 'react-router-dom';
 import project1 from '../images/LearningHowToLearn.JPG';
 import project2 from '../images/FromPortlandToPortland.JPG';
 import project3 from '../images/AroundUs.JPG';
 import project4 from '../images/baseCalculator.JPG';
-export default function WebProjects() {
+function WebProjects() {
     return (
         <main className="content">
             <section className="projects">
@@ -14,7 +15,7 @@ export default function WebProjects() {
                             href="https://iceicery.github.io/web_project_1/"
                             target="_blank"
                             rel="noreferrer"
-                        ><img src={project1} className="projects__img"
+                        ><img src={project1} className="projects__img" alt="project"
                             /></a>
                         <h3 className="projects__title">Informitive website</h3>
                         <ul className="projects__tech">
@@ -35,7 +36,7 @@ export default function WebProjects() {
                             href="https://iceicery.github.io/web_project_3/"
                             target="_blank"
                             rel="noreferrer"
-                        ><img src={project2} className="projects__img"
+                        ><img src={project2} className="projects__img" alt="project"
                             /></a>
                         <h3 className="projects__title">Informitive website</h3>
                         <ul className="projects__tech">
@@ -56,7 +57,7 @@ export default function WebProjects() {
                             href="https://iceicery.github.io/web_project_4/dist/index.html"
                             target="_blank"
                             rel="noreferrer"
-                        ><img src={project3} className="projects__img"
+                        ><img src={project3} className="projects__img" alt="project"
                             /></a>
                         <h3 className="projects__title">Informitive website</h3>
                         <ul className="projects__tech">
@@ -77,7 +78,7 @@ export default function WebProjects() {
                             href="https://iceicery.github.io/BaseCaculator/"
                             target="_blank"
                             rel="noreferrer"
-                        ><img src={project4} className="projects__img"
+                        ><img src={project4} className="projects__img" alt="project"
                             /></a>
                         <h3 className="projects__title">Informitive website</h3>
                         <ul className="projects__tech">
@@ -98,3 +99,4 @@ export default function WebProjects() {
         </main>
     )
 }
+export default withRouter(WebProjects);

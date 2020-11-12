@@ -7,4 +7,7 @@
 
 .header__menu-adjust {
   margin-top: 0;
+  display: flex;
+  justify-content: start;
+  align-content: center;
 }

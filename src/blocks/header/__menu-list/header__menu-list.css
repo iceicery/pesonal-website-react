@@ -11,3 +11,30 @@
   cursor: pointer;
   border: solid lightskyblue;
 }
+
+.header__menu-list-adjust {
+  padding: 8px;
+  align-self: center;
+  font-size: 15px;
+  margin-right: 20px;
+  border-radius: 10px;
+  border: solid #fff;
+  list-style: none;
+}
+
+.header__menu-list-adjust:hover {
+  opacity: 80%;
+  cursor: pointer;
+  border: solid lightskyblue;
+}
+
+.now {
+  padding: 8px;
+  font-size: 15px;
+  align-self: center;
+  margin-right: 20px;
+  border-radius: 10px;
+  border: solid #fff;
+  list-style: none;
+  background-color: #2f80ed;
+}
