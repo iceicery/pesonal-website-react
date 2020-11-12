@@ -1,4 +1,11 @@
-.footer__title{
-    margin-right:10px;
-    padding:0;
+.footer__title {
+  font-family: "Lobster";
+  padding: 3px;
+  border-bottom: solid 0.2px #fff;
+  margin-right: 10px;
+}
+@media screen and (max-width: 600px) {
+  .footer__title {
+    font-size: 15px;
+  }
 }

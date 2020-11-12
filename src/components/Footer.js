@@ -3,13 +3,13 @@ export default function Footer() {
     return (
         <footer className="footer">
             <div className="footer__box1">
-                <h3 className="footer__title">I can do:</h3>
+                <h3 className="footer__title">I can do</h3>
                 <h3 className="footer__subtitle">
                     HTML, CSS, JavaScript, Git, React, Node.js, SAS, R
           </h3>
             </div>
             <div className="footer__box2">
-                <h3 className="footer__title">Contact Me:</h3>
+                <h3 className="footer__title">Contact Me</h3>
                 <h3 className="footer__subtitle">&#9993; pw.amy.wu@gmail.com</h3>
                 <ul className="footer__icons">
                     <li>

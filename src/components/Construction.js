@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 export default function Construction({ isConstructed }) {
     const constructionClass = (`overlay ${!isConstructed && 'hidden'}`);
     return (
@@ -8,6 +9,7 @@ export default function Construction({ isConstructed }) {
                     Under construction.<br />Please come back later.
                 </h1>
             </div>
+            <Link className="construction__button" to="/">GO Home.</Link>
         </div>
     )
 }

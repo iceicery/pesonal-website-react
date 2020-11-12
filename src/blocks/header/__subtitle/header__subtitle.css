@@ -1,6 +1,12 @@
 .header__subtitle {
-    padding-left: 30px;
-    font-size: 20px;
-    line-height: 1.2;
-    font-weight: lighter;
+  padding-left: 30px;
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: lighter;
+}
+
+@media screen and (max-width: 800px) {
+  .header__subtitle {
+    font-size: 15px;
+  }
 }

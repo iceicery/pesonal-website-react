@@ -1,5 +1,12 @@
-.footer__box1{
-    display: flex;
-    align-items: baseline;
-    margin-right: 80px;
+.footer__box1 {
+  display: flex;
+  align-items: baseline;
+  margin-right: 80px;
+}
+
+@media screen and (max-width: 600px) {
+  .footer__box1 {
+    flex-direction: column;
+    margin: 0;
+  }
 }

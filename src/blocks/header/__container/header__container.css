@@ -1,16 +1,17 @@
 .header__container {
-    position: absolute;
-    top: 30px;
-    right: 30px;
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
 }
-@media screen and (max-width:500px) {
-    .header__container {
-        top:10px;
-        right:10px;
-        width:50px;
-        height:50px;
-    }
+@media screen and (max-width: 800px) {
+  .header__container {
+    position: absolute;
+    top: 15px;
+    right: 5px;
+    width: 50px;
+    height: 50px;
+  }
 }
