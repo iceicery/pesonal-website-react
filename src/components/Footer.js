@@ -1,5 +1,6 @@
 import React from 'react';
-export default function Footer() {
+import { withRouter } from 'react-router-dom';
+function Footer() {
     return (
         <footer className="footer">
             <div className="footer__box1">
@@ -31,3 +32,5 @@ export default function Footer() {
         </footer>
     )
 }
+
+export default withRouter(Footer);

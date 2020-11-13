@@ -70,7 +70,8 @@
   border: solid 0.3px #fff;
 }
 .construction__button:hover {
-  opacity: 80%;
+  border: solid 0.3px rgba(255, 255, 255, 0.8);
+  color: rgba(255, 255, 255, 0.8);
   cursor: pointer;
   border: solid 0.1px lightskyblue;
 }
@@ -120,7 +121,8 @@
 }
 
 .projects__img:hover {
-  opacity: 80%;
+  border: solid 0.3px rgba(255, 255, 255, 0.8);
+  color: rgba(255, 255, 255, 0.8);
   cursor: pointer;
   border: solid 0.1px lightskyblue;
 }
@@ -143,7 +145,8 @@
 }
 
 .projects__tech-link:hover {
-  opacity: 80%;
+  border: solid 0.3px rgba(255, 255, 255, 0.8);
+  color: rgba(255, 255, 255, 0.8);
   cursor: pointer;
   border: solid lightskyblue;
 }

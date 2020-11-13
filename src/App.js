@@ -34,9 +34,8 @@ function App() {
             <Intersts />
           </Route>
         </Switch>
-        <Footer />
       </BrowserRouter>
-
+      <Footer />
     </div>
   );
 }
