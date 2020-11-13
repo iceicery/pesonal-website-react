@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/pesonal-website-react/static/css/main.6e8ba16c.chunk.css",
-    "main.js": "/pesonal-website-react/static/js/main.57f1e9e9.chunk.js",
-    "main.js.map": "/pesonal-website-react/static/js/main.57f1e9e9.chunk.js.map",
+    "main.css": "/pesonal-website-react/static/css/main.c3d48842.chunk.css",
+    "main.js": "/pesonal-website-react/static/js/main.e52d997b.chunk.js",
+    "main.js.map": "/pesonal-website-react/static/js/main.e52d997b.chunk.js.map",
     "runtime-main.js": "/pesonal-website-react/static/js/runtime-main.214f719b.js",
     "runtime-main.js.map": "/pesonal-website-react/static/js/runtime-main.214f719b.js.map",
     "static/js/2.bc41d04f.chunk.js": "/pesonal-website-react/static/js/2.bc41d04f.chunk.js",
@@ -10,21 +10,21 @@
     "static/js/3.2ea967a2.chunk.js": "/pesonal-website-react/static/js/3.2ea967a2.chunk.js",
     "static/js/3.2ea967a2.chunk.js.map": "/pesonal-website-react/static/js/3.2ea967a2.chunk.js.map",
     "index.html": "/pesonal-website-react/index.html",
-    "static/css/main.6e8ba16c.chunk.css.map": "/pesonal-website-react/static/css/main.6e8ba16c.chunk.css.map",
+    "static/css/main.c3d48842.chunk.css.map": "/pesonal-website-react/static/css/main.c3d48842.chunk.css.map",
     "static/js/2.bc41d04f.chunk.js.LICENSE.txt": "/pesonal-website-react/static/js/2.bc41d04f.chunk.js.LICENSE.txt",
     "static/media/AroundUs.b32070d4.JPG": "/pesonal-website-react/static/media/AroundUs.b32070d4.JPG",
     "static/media/FromPortlandToPortland.38d204a8.JPG": "/pesonal-website-react/static/media/FromPortlandToPortland.38d204a8.JPG",
     "static/media/App.css": "/pesonal-website-react/static/media/Lobster-Regular.9535d77e.ttf",
     "static/media/LearningHowToLearn.5a8d0780.JPG": "/pesonal-website-react/static/media/LearningHowToLearn.5a8d0780.JPG",
     "static/media/baseCalculator.8cfb46f7.JPG": "/pesonal-website-react/static/media/baseCalculator.8cfb46f7.JPG",
-    "static/media/developer.12727954.jpg": "/pesonal-website-react/static/media/developer.12727954.jpg",
+    "static/media/developer.15ee0420.jpg": "/pesonal-website-react/static/media/developer.15ee0420.jpg",
     "static/media/emoji-2.ca7b1a3c.jpg": "/pesonal-website-react/static/media/emoji-2.ca7b1a3c.jpg",
     "static/media/head.26e87daa.jpg": "/pesonal-website-react/static/media/head.26e87daa.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.214f719b.js",
     "static/js/2.bc41d04f.chunk.js",
-    "static/css/main.6e8ba16c.chunk.css",
-    "static/js/main.57f1e9e9.chunk.js"
+    "static/css/main.c3d48842.chunk.css",
+    "static/js/main.e52d997b.chunk.js"
   ]
 }
