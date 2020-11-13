@@ -9,7 +9,7 @@ export default function Construction({ isConstructed }) {
                     Under construction.<br />Please come back later.
                 </h1>
             </div>
-            <Link className="construction__button" to="/">GO Home.</Link>
+            <Link className="construction__button" to="/personal-website-react">GO Home.</Link>
         </div>
     )
 }

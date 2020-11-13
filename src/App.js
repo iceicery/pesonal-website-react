@@ -14,7 +14,7 @@ function App() {
     <div className="page">
       <BrowserRouter>
         <Switch>
-          <Route exact path="/">
+          <Route exact path="/personal-website-react">
             <Menu />
           </Route>
           <Route exact path="/projects">
