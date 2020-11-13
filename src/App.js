@@ -12,9 +12,9 @@ import Intersts from './components/Interests';
 function App() {
   return (
     <div className="page">
-      <BrowserRouter>
+      <BrowserRouter basename={window.location.pathname || '/personal-website-react'}>
         <Switch>
-          <Route exact path="/personal-website-react">
+          <Route exact path="/">
             <Menu />
           </Route>
           <Route exact path="/projects">
@@ -34,8 +34,9 @@ function App() {
             <Intersts />
           </Route>
         </Switch>
+        <Footer />
       </BrowserRouter>
-      <Footer />
+
     </div>
   );
 }

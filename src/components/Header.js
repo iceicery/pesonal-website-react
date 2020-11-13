@@ -12,7 +12,7 @@ export default function Header({ now }) {
 
             </div>
             <menu className="header__menu-adjust">
-                <Link to="/personal-website-react" className='header__menu-list-adjust' > Home</Link>
+                <Link to="/" className='header__menu-list-adjust' > Home</Link>
                 <Link to="/projects" className={projects} >Web Projects</Link>
                 <Link to="/learning" className={learning} >Learning Track</Link>
                 <Link to="/before" className={before} >Before Coding</Link>
