@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/pesonal-website-react/static/css/main.14cbcc84.chunk.css",
-    "main.js": "/pesonal-website-react/static/js/main.e83ce9e2.chunk.js",
-    "main.js.map": "/pesonal-website-react/static/js/main.e83ce9e2.chunk.js.map",
+    "main.css": "/pesonal-website-react/static/css/main.375fad2a.chunk.css",
+    "main.js": "/pesonal-website-react/static/js/main.2a7a4582.chunk.js",
+    "main.js.map": "/pesonal-website-react/static/js/main.2a7a4582.chunk.js.map",
     "runtime-main.js": "/pesonal-website-react/static/js/runtime-main.214f719b.js",
     "runtime-main.js.map": "/pesonal-website-react/static/js/runtime-main.214f719b.js.map",
     "static/js/2.bc41d04f.chunk.js": "/pesonal-website-react/static/js/2.bc41d04f.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.2ea967a2.chunk.js": "/pesonal-website-react/static/js/3.2ea967a2.chunk.js",
     "static/js/3.2ea967a2.chunk.js.map": "/pesonal-website-react/static/js/3.2ea967a2.chunk.js.map",
     "index.html": "/pesonal-website-react/index.html",
-    "static/css/main.14cbcc84.chunk.css.map": "/pesonal-website-react/static/css/main.14cbcc84.chunk.css.map",
+    "static/css/main.375fad2a.chunk.css.map": "/pesonal-website-react/static/css/main.375fad2a.chunk.css.map",
     "static/js/2.bc41d04f.chunk.js.LICENSE.txt": "/pesonal-website-react/static/js/2.bc41d04f.chunk.js.LICENSE.txt",
     "static/media/AroundUs.b32070d4.JPG": "/pesonal-website-react/static/media/AroundUs.b32070d4.JPG",
     "static/media/FromPortlandToPortland.38d204a8.JPG": "/pesonal-website-react/static/media/FromPortlandToPortland.38d204a8.JPG",
@@ -21,13 +21,13 @@
     "static/media/emoji-2.ca7b1a3c.jpg": "/pesonal-website-react/static/media/emoji-2.ca7b1a3c.jpg",
     "static/media/engineer.fe5e3e03.jpg": "/pesonal-website-react/static/media/engineer.fe5e3e03.jpg",
     "static/media/head.26e87daa.jpg": "/pesonal-website-react/static/media/head.26e87daa.jpg",
-    "static/media/probes.1faa1ce8.jpg": "/pesonal-website-react/static/media/probes.1faa1ce8.jpg",
-    "static/media/statistics2.ed930b76.jpg": "/pesonal-website-react/static/media/statistics2.ed930b76.jpg"
+    "static/media/probes3.adc943ba.jpg": "/pesonal-website-react/static/media/probes3.adc943ba.jpg",
+    "static/media/statistics3.b0ef58b6.jpg": "/pesonal-website-react/static/media/statistics3.b0ef58b6.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.214f719b.js",
     "static/js/2.bc41d04f.chunk.js",
-    "static/css/main.14cbcc84.chunk.css",
-    "static/js/main.e83ce9e2.chunk.js"
+    "static/css/main.375fad2a.chunk.css",
+    "static/js/main.2a7a4582.chunk.js"
   ]
 }
