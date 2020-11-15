@@ -18,7 +18,7 @@
 .header__menu-adjust {
   margin-top: 0;
   display: flex;
-  justify-content: start;
+  justify-content: flex-start;
   align-content: center;
   flex-wrap: wrap;
 }
