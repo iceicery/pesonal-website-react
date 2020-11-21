@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/pesonal-website-react/static/css/main.d3740ae2.chunk.css",
-    "main.js": "/pesonal-website-react/static/js/main.e05a489c.chunk.js",
-    "main.js.map": "/pesonal-website-react/static/js/main.e05a489c.chunk.js.map",
+    "main.css": "/pesonal-website-react/static/css/main.feca5ad6.chunk.css",
+    "main.js": "/pesonal-website-react/static/js/main.2eca9a65.chunk.js",
+    "main.js.map": "/pesonal-website-react/static/js/main.2eca9a65.chunk.js.map",
     "runtime-main.js": "/pesonal-website-react/static/js/runtime-main.214f719b.js",
     "runtime-main.js.map": "/pesonal-website-react/static/js/runtime-main.214f719b.js.map",
     "static/js/2.bc41d04f.chunk.js": "/pesonal-website-react/static/js/2.bc41d04f.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.2ea967a2.chunk.js": "/pesonal-website-react/static/js/3.2ea967a2.chunk.js",
     "static/js/3.2ea967a2.chunk.js.map": "/pesonal-website-react/static/js/3.2ea967a2.chunk.js.map",
     "index.html": "/pesonal-website-react/index.html",
-    "static/css/main.d3740ae2.chunk.css.map": "/pesonal-website-react/static/css/main.d3740ae2.chunk.css.map",
+    "static/css/main.feca5ad6.chunk.css.map": "/pesonal-website-react/static/css/main.feca5ad6.chunk.css.map",
     "static/js/2.bc41d04f.chunk.js.LICENSE.txt": "/pesonal-website-react/static/js/2.bc41d04f.chunk.js.LICENSE.txt",
     "static/media/AroundUs.b32070d4.JPG": "/pesonal-website-react/static/media/AroundUs.b32070d4.JPG",
     "static/media/FromPortlandToPortland.38d204a8.JPG": "/pesonal-website-react/static/media/FromPortlandToPortland.38d204a8.JPG",
@@ -31,7 +31,7 @@
   "entrypoints": [
     "static/js/runtime-main.214f719b.js",
     "static/js/2.bc41d04f.chunk.js",
-    "static/css/main.d3740ae2.chunk.css",
-    "static/js/main.e05a489c.chunk.js"
+    "static/css/main.feca5ad6.chunk.css",
+    "static/js/main.2eca9a65.chunk.js"
   ]
 }
