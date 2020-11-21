@@ -96,7 +96,7 @@ export default function Learning() {
                         <div className="learning__item-textbox">
                             <h3 className="learning__item-title lobster">I practice on Codewar.</h3>
                             <p>I enjoy practicing on codewar.I love that you could only access others’ code if you pass the challenge on your own. I learned a lot through the process of independent thinking and aha moments while I saw others' better approach.</p>
-                            <img src="https://www.codewars.com/users/Pw%20Amy%20Wu/badges/large" />
+                            <img className="learning__img" src="https://www.codewars.com/users/Pw%20Amy%20Wu/badges/large" />
 
                         </div>
                     </li>

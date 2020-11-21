@@ -320,3 +320,14 @@ a {
 .learning__item-textbox {
   margin-left: 50px;
 }
+
+@media screen and (max-width: 800px) {
+  .learning__item-textbox {
+    margin-left: 0;
+  }
+}
+
+.learning__img {
+  width: 100%;
+  object-fit: contain;
+}
