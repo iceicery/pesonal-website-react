@@ -63,7 +63,7 @@ export default function Before() {
                                 rel="noreferrer"
                                 className="before__item-link"
                             >SSTM</a> probe based on fundamental electromagnetism and finite element analysis.
-                        I also produced the probe using chemical etching and focus iron Bean.  I wrote a M.S. thesis "Pixel array and display panel having the same".
+                        I also produced the probe using chemical etching and focus iron Bean.
                             </p>
                         </div>
 
