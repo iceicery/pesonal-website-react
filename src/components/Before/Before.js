@@ -1,7 +1,8 @@
 import React from 'react';
-import statics from '../images/statistics3.jpg';
-import engineer from '../images/engineer.jpg';
-import physics from '../images/probes3.jpg';
+import './Before.css';
+import statics from '../../images/statistics3.jpg';
+import engineer from '../../images/engineer.jpg';
+import physics from '../../images/probes3.jpg';
 export default function Before() {
     return (
         <main className="content">

@@ -31,10 +31,13 @@ function Menu() {
                     <Link to="/projects" className="header__menu-list">Web Projects</Link>
                     <Link to="/learning" className="header__menu-list">Learning Track</Link>
                     <Link to="/before" className="header__menu-list">Before Coding</Link>
+                    {/*
                     <Link to="/interests" className="header__menu-list">Interests</Link>
                     <a href="https://iceicery.github.io/pinwei/"
                         target="_blank"
                         rel="noreferrer"><li className="header__menu-list">One Page Summary</li></a>
+                    */}
+
                 </menu>
             </div>
         </header>

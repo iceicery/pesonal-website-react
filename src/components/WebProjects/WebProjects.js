@@ -1,11 +1,12 @@
 import React from 'react';
-import { Link, withRouter } from 'react-router-dom';
-import project1 from '../images/LearningHowToLearn.JPG';
-import project2 from '../images/FromPortlandToPortland.JPG';
-import project3 from '../images/AroundUs.JPG';
-import project4 from '../images/baseCalculator.JPG';
-import newsProject from '../images/newsExplorer.JPG';
-import personalWP from '../images/PersonalWebSite.JPG';
+import { withRouter } from 'react-router-dom';
+import './WebProjects.css';
+import project1 from '../../images/LearningHowToLearn.JPG';
+import project2 from '../../images/FromPortlandToPortland.JPG';
+import project3 from '../../images/AroundUs.JPG';
+import project4 from '../../images/baseCalculator.JPG';
+import newsProject from '../../images/newsExplorer.JPG';
+import personalWP from '../../images/PersonalWebSite.JPG';
 
 function WebProjects() {
     return (

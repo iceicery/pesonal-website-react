@@ -1,4 +1,5 @@
 import React from 'react';
+import './Footer.css';
 import { withRouter } from 'react-router-dom';
 function Footer() {
     return (

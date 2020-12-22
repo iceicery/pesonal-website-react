@@ -1,5 +1,5 @@
 import React from 'react';
-import Construction from "./Construction";
+import Construction from "./Construction/Construction";
 
 export default function Intersts() {
     return (

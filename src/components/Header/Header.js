@@ -1,4 +1,5 @@
 import React from 'react';
+import './Header.css';
 import { Link } from 'react-router-dom';
 export default function Header({ now }) {
     const projects = now === 'projects' ? 'now' : 'header__menu-list-adjust';
@@ -16,10 +17,13 @@ export default function Header({ now }) {
                 <Link to="/projects" className={projects} >Web Projects</Link>
                 <Link to="/learning" className={learning} >Learning Track</Link>
                 <Link to="/before" className={before} >Before Coding</Link>
+                {/*
                 <Link to="/interests" className={interests} >Interests</Link>
                 <a href="https://iceicery.github.io/pinwei/"
                     target="_blank"
                     rel="noreferrer"><li className="header__menu-list-adjust">One Page Summary</li></a>
+                    */
+                }
             </menu>
         </header>
     )

@@ -1,13 +1,12 @@
 import React from 'react';
-import cousera from '../images/cousera.jpg';
-import edx from '../images/edx.jpg';
-import practicum from '../images/practicum.jpg';
-import codewar from '../images/codewar.jpg';
-import Construction from "./Construction"
+import './Learning.css';
+import cousera from '../../images/cousera.jpg';
+import edx from '../../images/edx.jpg';
+import practicum from '../../images/practicum.jpg';
+import codewar from '../../images/codewar.jpg';
 
 export default function Learning() {
     return (
-        //<Construction isConstructed={true} />
         <main className="content">
             <section className="learning">
                 <h2 className="learning__text lobster">Learning Track</h2>
@@ -96,7 +95,7 @@ export default function Learning() {
                         <div className="learning__item-textbox">
                             <h3 className="learning__item-title lobster">I practice on Codewar.</h3>
                             <p>I enjoy practicing on codewar.I love that you could only access others’ code if you pass the challenge on your own. I learned a lot through the process of independent thinking and aha moments while I saw others' better approach.</p>
-                            <img className="learning__img" src="https://www.codewars.com/users/Pw%20Amy%20Wu/badges/large" />
+                            <img className="learning__img" alt="codewar rank" src="https://www.codewars.com/users/Pw%20Amy%20Wu/badges/large" />
 
                         </div>
                     </li>

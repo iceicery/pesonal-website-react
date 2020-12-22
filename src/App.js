@@ -2,12 +2,12 @@ import React from 'react';
 import { BrowserRouter, Route, withRouter, Switch } from "react-router-dom";
 import './pages/App.css';
 import Menu from './components/Menu';
-import Header from './components/Header';
-import Footer from './components/Footer';
-import WebProjects from './components/WebProjects';
-import Before from './components/Before';
-import Learning from './components/Learning';
-import Intersts from './components/Interests';
+import Header from './components/Header/Header';
+import Footer from './components/Footer/Footer';
+import WebProjects from './components/WebProjects/WebProjects';
+import Before from './components/Before/Before';
+import Learning from './components/Learning/Learning';
+//import Intersts from './components/Interests';
 
 function App() {
   return (
@@ -28,10 +28,6 @@ function App() {
           <Route exact path="/before">
             <Header now={'before'} />
             <Before />
-          </Route>
-          <Route exact path="/interests">
-            <Header now={'interests'} />
-            <Intersts />
           </Route>
         </Switch>
       </BrowserRouter>
