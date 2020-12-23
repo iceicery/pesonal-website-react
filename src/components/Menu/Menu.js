@@ -1,8 +1,9 @@
 import React from 'react';
 import { Link, withRouter } from 'react-router-dom';
-import developer from '../images/developer.jpg';
-import avatar from '../images/head.jpg';
-import emoji from '../images/emoji-2.jpg'
+import './Menu.css';
+import developer from '../../images/developer.jpg';
+import avatar from '../../images/head.jpg';
+import emoji from '../../images/emoji-2.jpg';
 function Menu() {
     return (
         <header className="header">
