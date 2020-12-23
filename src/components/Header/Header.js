@@ -7,9 +7,9 @@ export default function Header({ now }) {
     const learning = now === 'learning' ? 'now' : 'header__menu-list-adjust';
     const interests = now === 'interests' ? 'now' : 'header__menu-list-adjust';
     return (
-        <header className="footer__color">
-            <div className="footer__box1">
-                <h3 className="footer__title lobster">Hello, I am Pinwei Wu, a web developer.</h3>
+        <header className="header">
+            <div className="header__box1">
+                <h3 className="header__title lobster">Hello, I am Pinwei Wu, a web developer.</h3>
 
             </div>
             <menu className="header__menu-adjust">

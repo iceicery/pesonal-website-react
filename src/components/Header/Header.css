@@ -1,4 +1,4 @@
-.footer__color {
+.header {
   background-color: #00b3b3;
   padding: 20px 20px 0px 20px;
   display: flex;
@@ -7,37 +7,44 @@
 }
 
 @media screen and (max-width: 600px) {
-  .footer__color {
+  .header {
     padding: 5px 5px 0 5px;
     flex-direction: column;
   }
 }
 
-.footer__title {
+.header__title {
   font-family: "Lobster";
   padding: 3px;
   border-bottom: solid 0.2px #fff;
   margin-right: 10px;
 }
 @media screen and (max-width: 600px) {
-  .footer__title {
+  .header__title {
     font-size: 15px;
   }
 }
 
-.footer__box1 {
+.header__box1 {
   display: flex;
   align-items: baseline;
   margin-right: 80px;
 }
 
 @media screen and (max-width: 600px) {
-  .footer__box1 {
+  .header__box1 {
     flex-direction: column;
     margin: 0;
   }
 }
 
+.header__menu-adjust {
+  margin-top: 0;
+  display: flex;
+  justify-content: flex-start;
+  align-content: center;
+  flex-wrap: wrap;
+}
 .header__menu-list-adjust {
   padding: 8px;
   align-self: center;

@@ -1,11 +1,11 @@
-.header {
+.menu {
   display: flex;
   justify-content: space-between;
   align-items: initial;
   flex-wrap: wrap;
 }
 
-.header__container {
+.menu__container {
   position: absolute;
   top: 30px;
   right: 30px;
@@ -14,7 +14,7 @@
   border-radius: 50%;
 }
 @media screen and (max-width: 800px) {
-  .header__container {
+  .menu__container {
     position: absolute;
     top: 15px;
     right: 5px;
@@ -22,7 +22,7 @@
     height: 50px;
   }
 }
-.header__develope {
+.menu__develope {
   padding: 0;
   margin: 0;
   width: 100%;
@@ -32,29 +32,29 @@
   /* Safari 6.0 - 9.0 */
   filter: grayscale(100%);
 }
-.header__emoji {
+.menu__emoji {
   width: 100%;
   height: 100%;
   border-radius: 50%;
   object-fit: cover;
 }
-.header__img-box {
+.menu__img-box {
   width: 50%;
   height: 100%;
 }
 
 @media screen and (max-width: 800px) {
-  .header__img-box {
+  .menu__img-box {
     height: 100%;
     width: 100%;
   }
 }
-.header__list {
+.menu__subtitle-box {
   list-style: none;
   padding: 0;
   margin: 0;
 }
-.header__menu {
+.menu__list-box {
   margin-top: 40px;
   display: flex;
   justify-content: flex-start;
@@ -63,7 +63,7 @@
 }
 
 @media screen and (max-width: 800px) {
-  .header__menu {
+  .menu__list-box {
     padding: 0;
     margin-right: 0;
     margin-top: 20px;
@@ -78,7 +78,7 @@
   align-content: center;
   flex-wrap: wrap;
 }
-.header__menu-list {
+.menu__list {
   padding: 10px;
   margin-right: 20px;
   margin-bottom: 10px;
@@ -88,7 +88,7 @@
 }
 
 @media screen and (max-width: 800px) {
-  .header__menu-list {
+  .menu__list {
     padding: 5px;
     margin-left: 20px;
     margin-bottom: 10px;
@@ -97,7 +97,7 @@
   }
 }
 
-.header__menu-list:hover {
+.menu__list:hover {
   border: solid 0.8px rgba(255, 255, 0, 0.8);
   color: rgba(255, 255, 255, 0.6);
   cursor: pointer;
@@ -143,7 +143,7 @@
     margin-right: 5px;
   }
 }
-.header__selfie {
+.menu__selfie {
   position: absolute;
   right: 0;
   top: 0;
@@ -155,10 +155,10 @@
   object-fit: cover;
 }
 
-.header__container:hover .header__selfie {
+.menu__container:hover .menu__selfie {
   opacity: 1;
 }
-.header__subtitle {
+.menu__subtitle {
   padding-left: 30px;
   font-size: 20px;
   line-height: 1.2;
@@ -166,34 +166,34 @@
 }
 
 @media screen and (max-width: 800px) {
-  .header__subtitle {
+  .menu__subtitle {
     font-size: 15px;
   }
 }
-.header__text-box {
+.menu__text-box {
   width: 50%;
   height: 100%;
   position: relative;
 }
 
 @media screen and (max-width: 800px) {
-  .header__text-box {
+  .menu__text-box {
     width: 90%;
     margin-right: auto;
     margin-left: auto;
   }
 }
-.header__title {
+.menu__title {
   padding-left: 30px;
   font-size: 50px;
 }
 
 @media screen and (max-width: 800px) {
-  .header__title {
+  .menu__title {
     font-size: 30px;
   }
 }
-.header__title-hi {
+.menu__title-hi {
   font-family: "Lobster";
   font-size: 30px;
   padding-top: 30px;
@@ -201,7 +201,7 @@
 }
 
 @media screen and (max-width: 800px) {
-  .header__title-hi {
+  .menu__title-hi {
     padding-top: 15px;
     font-size: 20px;
   }
