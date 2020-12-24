@@ -8,19 +8,18 @@ import project4 from '../../images/baseCalculator.JPG';
 import newsProject from '../../images/newsExplorer.JPG';
 import personalWP from '../../images/PersonalWebSite.JPG';
 
-function WebProjects() {
+function WebProjects({ handleOpen, handleProject }) {
+    function getProjectNews() {
+        handleProject('news');
+        handleOpen();
+    }
     return (
         <main className="content">
             <section className="projects">
                 <h2 className="projects__text lobster">Web Projects</h2>
                 <ul className="projects__box">
                     <li className="projects__item">
-                        <a
-                            href="https://iceicery.github.io/web_project_4/dist/index.html"
-                            target="_blank"
-                            rel="noreferrer"
-                        ><img src={newsProject} className="projects__img" alt="project"
-                            /></a>
+                        <img src={newsProject} className="projects__img" alt="project" onClick={getProjectNews} />
                         <h3 className="projects__title">News Explorer is a website users could search news by keyword and save them while signing in.</h3>
                         <ul className="projects__tech">
                             <li className="projects__tech-item">CSS</li>
