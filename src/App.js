@@ -8,12 +8,13 @@ import WebProjects from './components/WebProjects/WebProjects';
 import Before from './components/Before/Before';
 import Learning from './components/Learning/Learning';
 import ProjectsPopup from './ProjectsPopup/ProjectsPopup';
-import testUtils from 'react-dom/test-utils';
+
 //import Intersts from './components/Interests';
 
 function App() {
   const [isOpen, setIsOpen] = useState(false);
   const [project, setProject] = useState('');
+  const [link, setLink] = useState('');
   function handleOpen() {
     setIsOpen(true);
   }
@@ -22,6 +23,9 @@ function App() {
   }
   function handleProject(projectName) {
     setProject(projectName)
+  }
+  function handleLink(link) {
+    setLink(link);
   }
   return (
     <div className="page">
@@ -32,8 +36,8 @@ function App() {
           </Route>
           <Route exact path="/projects">
             <Header now={'projects'} />
-            <ProjectsPopup isOpen={isOpen} project={project} handleClose={handleClose} />
-            <WebProjects handleOpen={handleOpen} handleProject={handleProject} />
+            <ProjectsPopup isOpen={isOpen} link={link} project={project} handleClose={handleClose} />
+            <WebProjects handleOpen={handleOpen} handleProject={handleProject} handleLink={handleLink} />
           </Route>
           <Route exact path="/learning">
             <Header now={'learning'} />

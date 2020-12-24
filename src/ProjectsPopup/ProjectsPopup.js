@@ -1,19 +1,16 @@
 import './ProjectPopup.css';
 import newsDemo from '../images/news-recording.webm';
-export default function ProjectsPopup({ isOpen, project, handleClose }) {
+export default function ProjectsPopup({ isOpen, project, link, handleClose }) {
     const overlayClass = isOpen ? "overlay" : "hidden";
     const popupClass = isOpen ? "popup" : "hidden";
     return (
         <>
             <div className={overlayClass}></div>
             <section className={popupClass}>
-                <video controls className="popup__video">{
-                    project === "news" && <source src={newsDemo} type="video/webm" />
-                }
-                </video>
+                <iframe title="demo" className="popup__video" width="560" height="315" src={project} frameborder="0" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen allow="autoplay; geolocation" ></iframe>
                 <div className="popup__button-box">
                     <a
-                        href="https://iceicery.github.io/web_project_4/dist/index.html"
+                        href={link}
                         target="_blank"
                         rel="noreferrer"
                     ><button className="popup__button">Go To WebSite</button></a>
