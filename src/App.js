@@ -37,7 +37,7 @@ function App() {
           <Route exact path="/projects">
             <Header now={'projects'} />
             <ProjectsPopup isOpen={isOpen} link={link} project={project} handleClose={handleClose} />
-            <WebProjects handleOpen={handleOpen} handleProject={handleProject} handleLink={handleLink} />
+            <WebProjects handleOpen={handleOpen} link={link} handleProject={handleProject} handleLink={handleLink} />
           </Route>
           <Route exact path="/learning">
             <Header now={'learning'} />
