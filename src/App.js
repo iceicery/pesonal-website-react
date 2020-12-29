@@ -10,14 +10,10 @@ import Learning from './components/Learning/Learning';
 import ProjectsPopup from './ProjectsPopup/ProjectsPopup';
 //import Intersts from './components/Interests';
 import ReactGA from 'react-ga';
-import { createBrowserHistory } from 'history';
-//const trackingId = "UA-126824471-1"; // Replace with your Google Analytics tracking ID
-//ReactGA.initialize(trackingId);
-const history = createBrowserHistory();
-history.listen(location => {
-  ReactGA.set({ page: location.pathname });
-  ReactGA.pageview(location.pathname);
-})
+
+const trackingId = "UA-126824471-1"; // Replace with your Google Analytics tracking ID
+ReactGA.initialize(trackingId);
+ReactGA.pageview(window.location.pathname + window.location.search);
 
 function App() {
   const [isOpen, setIsOpen] = useState(false);
@@ -37,7 +33,7 @@ function App() {
   }
   return (
     <div className="page">
-      <BrowserRouter history={history} basename={window.location.pathname || '/personal-website-react'}>
+      <BrowserRouter basename={window.location.pathname || '/personal-website-react'}>
         <Switch>
           <Route exact path="/">
             <Menu />

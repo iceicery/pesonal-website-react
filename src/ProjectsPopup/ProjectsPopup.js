@@ -1,5 +1,4 @@
 import './ProjectPopup.css';
-import newsDemo from '../images/news-recording.webm';
 export default function ProjectsPopup({ isOpen, project, link, handleClose }) {
     const overlayClass = isOpen ? "overlay" : "hidden";
     const popupClass = isOpen ? "popup" : "hidden";
