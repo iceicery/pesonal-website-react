@@ -7,7 +7,7 @@ import Footer from './components/Footer/Footer';
 import WebProjects from './components/WebProjects/WebProjects';
 import Before from './components/Before/Before';
 import Learning from './components/Learning/Learning';
-import ProjectsPopup from './ProjectsPopup/ProjectsPopup';
+import ProjectsPopup from './components/ProjectsPopup/ProjectsPopup';
 //import Intersts from './components/Interests';
 import ReactGA from 'react-ga';
 

@@ -1,7 +1,7 @@
 export default function CodeButton({ Link, name }) {
     return (
         <a
-            href={Link.news.code.font}
+            href={Link}
             target="_blank"
             rel="noreferrer"
         >
