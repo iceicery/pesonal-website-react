@@ -17,7 +17,6 @@ function WebProjects({ handleOpen, link, handleProject, handleLink }) {
                 font: 'https://github.com/iceicery/news-explorer-frontend',
                 end: 'https://github.com/iceicery/news-explorer-api',
             }
-
         },
         around: {
             demo: 'https://embed.storyxpress.co/embed/kj95tq0f7o6qb46ns',
@@ -72,8 +71,6 @@ function WebProjects({ handleOpen, link, handleProject, handleLink }) {
         handleOpen();
         handleLink(Link.calculators.website);
     }
-    console.log(Link.bicycle.demo);
-    console.log(Link.calculators.demo);
 
     return (
         <main className="content">
