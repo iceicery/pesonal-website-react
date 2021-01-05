@@ -5,13 +5,13 @@ export default function Project({ image, handleOnclick, text, demo, website, tec
     function handleClickDemo() {
         handleOnclick(demo, website);
     }
-    const demoClass = demo ? "projects__button-box" : "hidden";
+    const demoClass = demo ? "projects__button" : "hidden";
     return (
         <li className="projects__item">
             <div className="projects__img-box">
                 <img src={image} className="projects__img" alt="project" />
-                <div className={demoClass}>
-                    <button className="projects__button" onClick={handleClickDemo}>Demo</button>
+                <div className="projects__button-box">
+                    <button className={demoClass} onClick={handleClickDemo}>Demo</button>
                     <a
                         href={website}
                         target="_blank"
