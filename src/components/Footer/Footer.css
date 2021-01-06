@@ -41,9 +41,14 @@
   width: 25px;
   height: 25px;
   background-repeat: no-repeat;
+  border: solid 0.1px transparent;
 }
 
 .footer__icon-github:hover {
+  background-image: url("../../images/GitHub-Mark-Light-32px.png");
+  background-size: 100%;
+  width: 25px;
+  height: 25px;
   opacity: 80%;
   cursor: pointer;
   border: solid 0.1px lightblue;
@@ -59,6 +64,10 @@
 }
 
 .footer__icon-linkedin:hover {
+  background-image: url("../../images/LI-In-Bug.png");
+  background-size: 100%;
+  background-position: bottom;
+  margin-right: 20px;
   opacity: 80%;
   cursor: pointer;
   border: solid 0.1px lightblue;
