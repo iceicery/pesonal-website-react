@@ -4,6 +4,7 @@ import project3 from '../images/AroundUs.JPG';
 import project4 from '../images/baseCalculator.JPG';
 import newsProject from '../images/newsExplorer.JPG';
 import personalWP from '../images/PersonalWebSite.JPG';
+import pwp from '../images/pwp.JPG';
 import ctj from '../images/ctj.JPG';
 
 export const Link = {
@@ -41,6 +42,10 @@ export const Link = {
     personal: {
         website: 'https://iceicery.github.io/pesonal-website-react',
         code: 'https://github.com/iceicery/pesonal-website-react'
+    },
+    personal_2: {
+        website: 'https://iceicery.github.io/pinwei',
+        code: 'https://github.com/iceicery/pinwei'
     },
     ctj: {
         website: 'https://ctjchen.github.io/',
@@ -82,10 +87,19 @@ export const projects = [
         text: "This is my personal website with the info of my web project profolios, work experiences, and learning tracks.",
         tech: ["React", "CSS", "JavaScript"],
         website: Link.personal.website,
-        demo: Link.personal.demo,
         codes: [{
             button: "Code",
             link: Link.personal.code
+        }]
+    },
+    {
+        image: pwp,
+        text: "This is anoter version of personal website with the info of my web project profolios, work experiences, and learning tracks.",
+        tech: ["React", "CSS", "JavaScript"],
+        website: Link.personal_2.website,
+        codes: [{
+            button: "Code",
+            link: Link.personal_2.code
         }]
     },
     {
