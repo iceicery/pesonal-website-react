@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/pesonal-website-react/static/css/main.cbacba47.chunk.css",
-    "main.js": "/pesonal-website-react/static/js/main.8c5b290a.chunk.js",
-    "main.js.map": "/pesonal-website-react/static/js/main.8c5b290a.chunk.js.map",
+    "main.js": "/pesonal-website-react/static/js/main.54fac87e.chunk.js",
+    "main.js.map": "/pesonal-website-react/static/js/main.54fac87e.chunk.js.map",
     "runtime-main.js": "/pesonal-website-react/static/js/runtime-main.3a53c1a1.js",
     "runtime-main.js.map": "/pesonal-website-react/static/js/runtime-main.3a53c1a1.js.map",
     "static/js/2.24cb2495.chunk.js": "/pesonal-website-react/static/js/2.24cb2495.chunk.js",
@@ -29,12 +29,13 @@
     "static/media/newsExplorer.cbac983a.JPG": "/pesonal-website-react/static/media/newsExplorer.cbac983a.JPG",
     "static/media/practicum.fae9c0c9.jpg": "/pesonal-website-react/static/media/practicum.fae9c0c9.jpg",
     "static/media/probes3.adc943ba.jpg": "/pesonal-website-react/static/media/probes3.adc943ba.jpg",
+    "static/media/pwp.750ed433.JPG": "/pesonal-website-react/static/media/pwp.750ed433.JPG",
     "static/media/statistics3.b0ef58b6.jpg": "/pesonal-website-react/static/media/statistics3.b0ef58b6.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.3a53c1a1.js",
     "static/js/2.24cb2495.chunk.js",
     "static/css/main.cbacba47.chunk.css",
-    "static/js/main.8c5b290a.chunk.js"
+    "static/js/main.54fac87e.chunk.js"
   ]
 }
