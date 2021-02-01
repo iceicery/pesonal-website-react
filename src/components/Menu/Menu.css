@@ -13,6 +13,7 @@
   height: 100px;
   border-radius: 50%;
 }
+
 @media screen and (max-width: 800px) {
   .menu__container {
     position: absolute;
@@ -147,7 +148,7 @@
   }
 }
 .menu__title-hi {
-  font-family: "Lobster";
+  font-family: 'Lobster';
   font-size: 30px;
   padding-top: 30px;
   padding-left: 30px;
