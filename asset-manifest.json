@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/pesonal-website-react/static/css/main.744ac0e1.chunk.css",
-    "main.js": "/pesonal-website-react/static/js/main.2660f968.chunk.js",
-    "main.js.map": "/pesonal-website-react/static/js/main.2660f968.chunk.js.map",
+    "main.js": "/pesonal-website-react/static/js/main.983d0111.chunk.js",
+    "main.js.map": "/pesonal-website-react/static/js/main.983d0111.chunk.js.map",
     "runtime-main.js": "/pesonal-website-react/static/js/runtime-main.3a53c1a1.js",
     "runtime-main.js.map": "/pesonal-website-react/static/js/runtime-main.3a53c1a1.js.map",
     "static/js/2.24cb2495.chunk.js": "/pesonal-website-react/static/js/2.24cb2495.chunk.js",
@@ -18,7 +18,7 @@
     "static/media/LearningHowToLearn.5a8d0780.JPG": "/pesonal-website-react/static/media/LearningHowToLearn.5a8d0780.JPG",
     "static/media/PersonalWebSite.f02a1c74.JPG": "/pesonal-website-react/static/media/PersonalWebSite.f02a1c74.JPG",
     "static/media/avatarAmy.d1a5ab1d.png": "/pesonal-website-react/static/media/avatarAmy.d1a5ab1d.png",
-    "static/media/baseCalculator.8cfb46f7.JPG": "/pesonal-website-react/static/media/baseCalculator.8cfb46f7.JPG",
+    "static/media/baseCalculator.444bfac3.JPG": "/pesonal-website-react/static/media/baseCalculator.444bfac3.JPG",
     "static/media/codewar.8cd7f0c1.jpg": "/pesonal-website-react/static/media/codewar.8cd7f0c1.jpg",
     "static/media/cousera.fce26a08.jpg": "/pesonal-website-react/static/media/cousera.fce26a08.jpg",
     "static/media/ctj.bc57a0d2.JPG": "/pesonal-website-react/static/media/ctj.bc57a0d2.JPG",
@@ -36,6 +36,6 @@
     "static/js/runtime-main.3a53c1a1.js",
     "static/js/2.24cb2495.chunk.js",
     "static/css/main.744ac0e1.chunk.css",
-    "static/js/main.2660f968.chunk.js"
+    "static/js/main.983d0111.chunk.js"
   ]
 }
